@@ -2,6 +2,8 @@
 <img src="./docs/parafoldlogo.png" width="400" >
 </div>
 
+This is a fork of parafold to alter the installation script
+
 # ParaFold
 
 Author: Bozitao Zhong - zbztzhz@gmail.com
@@ -10,6 +12,8 @@ Author: Bozitao Zhong - zbztzhz@gmail.com
 
 ## Overview
 
+
+
 Recent change: **ParaFold now supports AlphaFold 2.3.1**
 
 This project is a modified version of DeepMind's [AlphaFold2](https://github.com/deepmind/alphafold) to achieve high-throughput protein structure prediction. 
@@ -17,8 +21,6 @@ This project is a modified version of DeepMind's [AlphaFold2](https://github.com
 We have these following modifications to the original AlphaFold pipeline:
 
 - Divide **CPU part** (MSA and template searching) and **GPU part** (prediction model)
-
-
 
 ## How to install 
 

@@ -1,0 +1,11 @@
+name: parafold
+channels:
+  - defaults
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.3
+  - cudnn
+  - openmm=8.0 
+  - pdbfixer
